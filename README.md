@@ -1,7 +1,7 @@
 # nextstrain.org/lassa
 
 
-Lassa outbreak study built with nextstrain nextstrain.org/lassa.
+Lassa builds with nextstrain nextstrain.org/lassa.
 
 [Nextstrain]: https://nextstrain.org
 [fauna]: https://github.com/nextstrain/fauna
