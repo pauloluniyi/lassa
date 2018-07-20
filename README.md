@@ -1,7 +1,4 @@
-# nextstrain.org/lassa
-
-
-Lassa builds with nextstrain nextstrain.org/lassa.
+Lassa builds with nextstrain https://github.com/nextstrain/lassa.
 
 [Nextstrain]: https://nextstrain.org
 [fauna]: https://github.com/nextstrain/fauna
