@@ -1,0 +1,157 @@
+{
+ "nodes": {
+  "NODE_0000009": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 0.999732242068206
+   },
+   "country_entropy": 0.0024701454613793583
+  },
+  "G636_SLE_2009": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000007": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 0.9998593678924539
+   },
+   "country_entropy": 0.0013879394619457283
+  },
+  "NODE_0000008": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 0.9998467582671315
+   },
+   "country_entropy": 0.0014992278192263277
+  },
+  "G1727_SLE_2011": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "G2222_SLE_2011": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000006": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 0.9994054494949177
+   },
+   "country_entropy": 0.005010519417772119
+  },
+  "G3248_SLE_2013": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000005": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 0.9961070724025611,
+    "nigeria": 0.0038929275974387695
+   },
+   "country_entropy": 0.025485614265542505
+  },
+  "G2554_SLE_2012": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000003": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 0.9881844160509506,
+    "nigeria": 0.011815583949049252
+   },
+   "country_entropy": 0.0641870343285722
+  },
+  "NODE_0000004": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 0.9998699510705018
+   },
+   "country_entropy": 0.0012936662460211498
+  },
+  "G3278_SLE_2013": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "G2557_SLE_2012": {
+   "country": "sierra_leone",
+   "country_confidence": {
+    "sierra_leone": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000002": {
+   "country": "nigeria",
+   "country_confidence": {
+    "nigeria": 0.8822634746401355,
+    "sierra_leone": 0.11773652535986437
+   },
+   "country_entropy": 0.36239078498235666
+  },
+  "KM822127.1": {
+   "country": "nigeria",
+   "country_confidence": {
+    "nigeria": 0.7024732454371776,
+    "sierra_leone": 0.29752675456282246
+   },
+   "country_entropy": 0.6087541393403512
+  },
+  "NODE_0000000": {
+   "country": "nigeria",
+   "country_confidence": {
+    "nigeria": 0.9637201452487419,
+    "sierra_leone": 0.03627985475125795
+   },
+   "country_entropy": 0.1559355063577508
+  },
+  "ISTH0531_NIG_2011": {
+   "country": "nigeria",
+   "country_confidence": {
+    "nigeria": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000001": {
+   "country": "nigeria",
+   "country_confidence": {
+    "nigeria": 0.9962778065453922,
+    "sierra_leone": 0.0037221934546077255
+   },
+   "country_entropy": 0.024535131224577476
+  },
+  "ISTH1038_NIG_2011": {
+   "country": "nigeria",
+   "country_confidence": {
+    "nigeria": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  },
+  "ISTH2217_NIG_2012": {
+   "country": "nigeria",
+   "country_confidence": {
+    "nigeria": 1.0
+   },
+   "country_entropy": -1.000088900581841e-12
+  }
+ }
+}

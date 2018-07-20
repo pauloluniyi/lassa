@@ -1,0 +1,65 @@
+
+nseq =  11
+distance =  ktuples
+iterate =  0
+cycle =  2
+inputfile = orig
+11 x 7300 - 7252 d
+sparsepickup = 0
+nguidetree = 2
+nthread = 2
+sueff_global = 0.100000
+generating a scoring matrix for nucleotide (dist=200) ... done
+done
+done
+scoremtx = -1
+Gap Penalty = -1.53, +0.00, +0.00
+
+tuplesize = 6, dorp = d
+
+
+Making a distance matrix ..
+
+There are 78 ambiguous characters.
+    1 / 11
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 11
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 10 fSTEP     2 / 10 fSTEP     3 / 10 fSTEP     4 / 10 fSTEP     5 / 10 fSTEP     6 / 10 fSTEP     7 / 10 fSTEP     8 / 10 fSTEP     9 / 10 f
+Reallocating..done. *alloclen = 15633
+STEP    10 / 10 d
+done.
+
+Making a distance matrix from msa.. 
+    0 / 11
+done.
+
+Constructing a UPGMA tree ... 
+    0 / 11
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 10 fSTEP     2 / 10 fSTEP     3 / 10 fSTEP     4 / 10 fSTEP     5 / 10 fSTEP     6 / 10 fSTEP     7 / 10 fSTEP     8 / 10 fSTEP     9 / 10 f
+Reallocating..done. *alloclen = 15633
+STEP    10 / 10 d
+done.
+
+disttbfast (nuc) Version 7.245 alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

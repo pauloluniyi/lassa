@@ -1,0 +1,252 @@
+{
+ "alignment": "results/aligned_l.fasta",
+ "input_tree": "results/tree_raw_l.nwk",
+ "clock": {
+  "rate": 0.0006,
+  "intercept": -0.9997587114229975,
+  "rtt_Tmrca": 1666.2645190383294
+ },
+ "nodes": {
+  "NODE_0000009": {
+   "branch_length": 0.0001375137513751375,
+   "numdate": 1921.8410916520957,
+   "clock_length": 0.0001375137513751375,
+   "mutation_length": 0.0001375137513751375,
+   "date": "1921-11-04",
+   "num_date_confidence": [
+    1919.3233028904833,
+    1924.6920476422113
+   ]
+  },
+  "G636_SLE_2009": {
+   "branch_length": 0.05229698771921491,
+   "numdate": 2009.002737850787,
+   "clock_length": 0.05229698771921491,
+   "mutation_length": 0.033155,
+   "raw_date": "2009-XX-XX",
+   "date": "2009-01-01",
+   "num_date_confidence": [
+    2009.002737850787,
+    2009.8502743559404
+   ]
+  },
+  "NODE_0000007": {
+   "branch_length": 9.743055179713134e-05,
+   "numdate": 1922.0034759050907,
+   "clock_length": 9.743055179713134e-05,
+   "mutation_length": 0.0,
+   "date": "1922-01-02",
+   "num_date_confidence": [
+    1920.599596563862,
+    1923.4504515503158
+   ]
+  },
+  "NODE_0000008": {
+   "branch_length": 0.021220512219067802,
+   "numdate": 1957.3709962702037,
+   "clock_length": 0.021220512219067802,
+   "mutation_length": 0.011393,
+   "date": "1957-05-16",
+   "num_date_confidence": [
+    1953.6845507917228,
+    1960.452352635461
+   ]
+  },
+  "G1727_SLE_2011": {
+   "branch_length": 0.03217904494834998,
+   "numdate": 2011.002737850787,
+   "clock_length": 0.03217904494834998,
+   "mutation_length": 0.02670291,
+   "raw_date": "2011-XX-XX",
+   "date": "2011-01-01",
+   "num_date_confidence": [
+    2011.002737850787,
+    2011.8622838724489
+   ]
+  },
+  "G2222_SLE_2011": {
+   "branch_length": 0.03217904494834998,
+   "numdate": 2011.002737850787,
+   "clock_length": 0.03217904494834998,
+   "mutation_length": 0.02315484,
+   "raw_date": "2011-XX-XX",
+   "date": "2011-01-01",
+   "num_date_confidence": [
+    2011.002737850787,
+    2011.8765060452176
+   ]
+  },
+  "NODE_0000006": {
+   "branch_length": 0.011093313136477184,
+   "numdate": 1940.4923311325526,
+   "clock_length": 0.011093313136477184,
+   "mutation_length": 0.022063,
+   "date": "1940-06-28",
+   "num_date_confidence": [
+    1938.427079977811,
+    1942.9366252937803
+   ]
+  },
+  "G3248_SLE_2013": {
+   "branch_length": 0.044104190642850226,
+   "numdate": 2013.9993155373031,
+   "clock_length": 0.044104190642850226,
+   "mutation_length": 0.0496419,
+   "raw_date": "2013-XX-XX",
+   "date": "2013-12-31",
+   "num_date_confidence": [
+    2013.125529765403,
+    2013.9993155373031
+   ]
+  },
+  "NODE_0000005": {
+   "branch_length": 0.006009548410715458,
+   "numdate": 1950.5082451504118,
+   "clock_length": 0.006009548410715458,
+   "mutation_length": 0.010641,
+   "date": "1950-07-05",
+   "num_date_confidence": [
+    1947.8308242883327,
+    1952.9722937068893
+   ]
+  },
+  "G2554_SLE_2012": {
+   "branch_length": 0.03749628494260715,
+   "numdate": 2013.0020533880904,
+   "clock_length": 0.03749628494260715,
+   "mutation_length": 0.03977451,
+   "raw_date": "2012-XX-XX",
+   "date": "2013-01-01",
+   "num_date_confidence": [
+    2012.1122814474927,
+    2013.0020533880904
+   ]
+  },
+  "NODE_0000003": {
+   "branch_length": -0.0028541151110649046,
+   "numdate": 1945.7513866319703,
+   "clock_length": -0.0028541151110649046,
+   "mutation_length": 0.054611,
+   "date": "1945-10-02",
+   "num_date_confidence": [
+    1944.9189124905884,
+    1948.3510097747596
+   ]
+  },
+  "NODE_0000004": {
+   "branch_length": 0.028883222226354574,
+   "numdate": 1993.8900903425613,
+   "clock_length": 0.028883222226354574,
+   "mutation_length": 0.062977,
+   "date": "1993-11-22",
+   "num_date_confidence": [
+    1991.8769350033135,
+    1996.1241672527178
+   ]
+  },
+  "G3278_SLE_2013": {
+   "branch_length": 0.012065535116845098,
+   "numdate": 2013.9993155373031,
+   "clock_length": 0.012065535116845098,
+   "mutation_length": 0.01536646,
+   "raw_date": "2013-XX-XX",
+   "date": "2013-12-31",
+   "num_date_confidence": [
+    2013.1857659547977,
+    2013.9993155373031
+   ]
+  },
+  "G2557_SLE_2012": {
+   "branch_length": 0.011467177827317477,
+   "numdate": 2013.0020533880904,
+   "clock_length": 0.011467177827317477,
+   "mutation_length": 0.01341312,
+   "raw_date": "2012-XX-XX",
+   "date": "2013-01-01",
+   "num_date_confidence": [
+    2012.1499012794804,
+    2013.0020533880904
+   ]
+  },
+  "NODE_0000002": {
+   "branch_length": 0.00786744034647803,
+   "numdate": 1958.8637872094337,
+   "clock_length": 0.00786744034647803,
+   "mutation_length": 0.169782,
+   "date": "1958-11-12",
+   "num_date_confidence": [
+    1942.1708923526774,
+    1965.7973840363084
+   ]
+  },
+  "KM822127.1": {
+   "branch_length": 0.2164914477768372,
+   "numdate": 2319.6828668374956,
+   "clock_length": 0.2164914477768372,
+   "mutation_length": 0.21809869,
+   "date": "2319-09-07",
+   "num_date_confidence": [
+    2301.8368765859923,
+    2337.556971430427
+   ]
+  },
+  "NODE_0000000": {
+   "branch_length": -0.0036184794438600676,
+   "numdate": 1952.8329881363336,
+   "clock_length": -0.0036184794438600676,
+   "mutation_length": 0.20025,
+   "date": "1952-10-31",
+   "num_date_confidence": [
+    1950.2687934029373,
+    1957.201766090885
+   ]
+  },
+  "ISTH0531_NIG_2011": {
+   "branch_length": 0.03490184982867208,
+   "numdate": 2011.002737850787,
+   "clock_length": 0.03490184982867208,
+   "mutation_length": 0.02273213,
+   "raw_date": "2011-XX-XX",
+   "date": "2011-01-01",
+   "num_date_confidence": [
+    2011.002737850787,
+    2011.8996577686514
+   ]
+  },
+  "NODE_0000001": {
+   "branch_length": 0.008733771306980376,
+   "numdate": 1967.3892736479675,
+   "clock_length": 0.008733771306980376,
+   "mutation_length": 0.014039,
+   "date": "1967-05-23",
+   "num_date_confidence": [
+    1965.133924679578,
+    1970.630829503101
+   ]
+  },
+  "ISTH1038_NIG_2011": {
+   "branch_length": 0.026766025133601337,
+   "numdate": 2011.9993155373031,
+   "clock_length": 0.026766025133601337,
+   "mutation_length": 0.0348188,
+   "raw_date": "2011-XX-XX",
+   "date": "2011-12-31",
+   "num_date_confidence": [
+    2011.1192967296724,
+    2011.9993155373031
+   ]
+  },
+  "ISTH2217_NIG_2012": {
+   "branch_length": 0.027367667844073715,
+   "numdate": 2013.0020533880904,
+   "clock_length": 0.027367667844073715,
+   "mutation_length": 0.03740584,
+   "raw_date": "2012-XX-XX",
+   "date": "2013-01-01",
+   "num_date_confidence": [
+    2012.228357113621,
+    2013.0020533880904
+   ]
+  }
+ }
+}
