@@ -48,7 +48,7 @@ rule filter:
         sequences = "results/filtered_s.fasta"
     params:
         group_by = "country year",
-        sequences_per_group = 2,
+        sequences_per_group = 100,
     shell:
         """
         augur filter \
