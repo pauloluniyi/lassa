@@ -1,5 +1,7 @@
 
-Lassa builds with nextstrain https://github.com/nextstrain/lassa.
+Lassa builds with nextstrain software developed by Trevor Bedford and Richard Neher.
+
+For full instructions on how to setup nextstrain, visit https://github.com/nextstrain.
 
 [Nextstrain]: https://nextstrain.org
 [fauna]: https://github.com/nextstrain/fauna
