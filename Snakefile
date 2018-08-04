@@ -1,16 +1,16 @@
-SEGMENTS = ["l", "s"]
 
 rule all:
     input:
-        auspice_tree = expand("auspice/lassa_{segment}_tree.json", segment=SEGMENTS),
-        auspice_meta = expand("auspice/lassa_{segment}_meta.json", segment=SEGMENTS)
+        auspice_tree = expand("auspice/lassa_s_tree.json", segment="s"),
+        auspice_meta = expand("auspice/lassa_s_meta.json", segment="s")
 
 rule files:
     params:
-        input_fasta = "data/lassa_{segment}.fasta",
+        input_fasta = "data/lassa_s.fasta",
         dropped_strains = "config/dropped_strains.txt",
-        reference = "config/lassa_{segment}.gb",
+        reference = "config/lassa_s.gb",
         colors = "config/colors.tsv",
+        lat_longs = "config/lat_longs.tsv",
         auspice_config = "config/auspice_config.json"
 
 files = rules.files.params
@@ -20,10 +20,10 @@ rule parse:
     input:
         sequences = files.input_fasta
     output:
-        sequences = "results/sequences_{segment}.fasta",
-        metadata = "results/metadata_{segment}.tsv"
+        sequences = "results/sequences_s.fasta",
+        metadata = "results/metadata_s.tsv"
     params:
-        fasta_fields = "strain accession segment date region country host authors title journal puburl"
+        fasta_fields = "strain accession segment date region country division host"
     shell:
         """
         augur parse \
@@ -45,10 +45,10 @@ rule filter:
         metadata = rules.parse.output.metadata,
         exclude = files.dropped_strains
     output:
-        sequences = "results/filtered_{segment}.fasta"
+        sequences = "results/filtered_s.fasta"
     params:
         group_by = "country year",
-        sequences_per_group = 2,
+        sequences_per_group = 100,
     shell:
         """
         augur filter \
@@ -70,7 +70,7 @@ rule align:
         sequences = rules.filter.output.sequences,
         reference = files.reference
     output:
-        alignment = "results/aligned_{segment}.fasta"
+        alignment = "results/aligned_s.fasta"
     shell:
         """
         augur align \
@@ -85,7 +85,7 @@ rule tree:
     input:
         alignment = rules.align.output.alignment
     output:
-        tree = "results/tree_raw_{segment}.nwk"
+        tree = "results/tree_raw_s.nwk"
     params:
         method = "iqtree"
     shell:
@@ -110,8 +110,8 @@ rule refine:
         alignment = rules.align.output,
         metadata = rules.parse.output.metadata
     output:
-        tree = "results/tree_{segment}.nwk",
-        node_data = "results/branch_lengths_{segment}.json"
+        tree = "results/tree_s.nwk",
+        node_data = "results/branch_lengths_s.json"
     params:
         coalescent = "opt",
         date_inference = "marginal",
@@ -137,7 +137,7 @@ rule ancestral:
         tree = rules.refine.output.tree,
         alignment = rules.align.output
     output:
-        node_data = "results/nt_muts_{segment}.json"
+        node_data = "results/nt_muts_s.json"
     params:
         inference = "joint"
     shell:
@@ -156,7 +156,7 @@ rule translate:
         node_data = rules.ancestral.output.node_data,
         reference = files.reference
     output:
-        node_data = "results/aa_muts_{segment}.json"
+        node_data = "results/aa_muts_s.json"
     shell:
         """
         augur translate \
@@ -172,9 +172,9 @@ rule traits:
         tree = rules.refine.output.tree,
         metadata = rules.parse.output.metadata
     output:
-        node_data = "results/traits_{segment}.json",
+        node_data = "results/traits_s.json",
     params:
-        columns = "country"
+        columns = "country division"
     shell:
         """
         augur traits \
@@ -195,10 +195,11 @@ rule export:
         nt_muts = rules.ancestral.output.node_data,
         aa_muts = rules.translate.output.node_data,
         colors = files.colors,
+        lat_longs = files.lat_longs,
         auspice_config = files.auspice_config
     output:
-        auspice_tree = "auspice/lassa_{segment}_tree.json",
-        auspice_meta = "auspice/lassa_{segment}_meta.json"
+        auspice_tree = "auspice/lassa_s_tree.json",
+        auspice_meta = "auspice/lassa_s_meta.json"
     shell:
         """
         augur export \
@@ -206,6 +207,7 @@ rule export:
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
             --colors {input.colors} \
+            --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
             --output-tree {output.auspice_tree} \
             --output-meta {output.auspice_meta}
