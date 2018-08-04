@@ -1,0 +1,38 @@
+{
+  "title": "Real-time tracking of Lassa virus evolution 2015-2018 Outbreak",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+
+    "country": {
+    },
+    "division": {
+      }
+  },
+  "geo": [
+    "country",
+    "division"
+  ],
+  "defaults": {
+    "colorBy": "division",
+    "geoResolution": "division"
+  }
+  "maintainer" [
+    "ACEGID Redeemer's University",
+    "http://acegid.org/"
+  ],
+  "filters": [
+    "country",
+    "division"
+  ]
+}
