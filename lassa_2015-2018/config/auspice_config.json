@@ -26,8 +26,8 @@
   "defaults": {
     "colorBy": "division",
     "geoResolution": "division"
-  }
-  "maintainer" [
+  },
+  "maintainer": [
     "ACEGID Redeemer's University",
     "http://acegid.org/"
   ],
