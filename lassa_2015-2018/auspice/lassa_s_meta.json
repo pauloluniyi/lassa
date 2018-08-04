@@ -1,6 +1,6 @@
 {
  "updated": "04 Aug 2018",
- "virus_count": 7,
+ "virus_count": 78,
  "author_info": {},
  "annotations": {
   "nuc": {
@@ -41,38 +41,6 @@
     [
      "nigeria",
      "#3F4DCB"
-    ],
-    [
-     "togo",
-     "#4681C9"
-    ],
-    [
-     "ghana",
-     "#5AA4A8"
-    ],
-    [
-     "cote_d_ivoire",
-     "#78B67E"
-    ],
-    [
-     "liberia",
-     "#9EBE5A"
-    ],
-    [
-     "sierra_leone",
-     "#C5B945"
-    ],
-    [
-     "guinea",
-     "#E0A23A"
-    ],
-    [
-     "mali",
-     "#E67231"
-    ],
-    [
-     "na",
-     "#DC2F24"
     ]
    ]
   },
@@ -83,47 +51,47 @@
    "color_map": [
     [
      "edo",
-     "#58A2AB"
+     "#4681C9"
     ],
     [
      "ondo",
-     "#56A0AE"
+     "#5AA4A8"
     ],
     [
      "delta",
-     "#5BA7A6"
+     "#4887C6"
     ],
     [
      "bauchi",
-     "#62AB9C"
+     "#DCAB3C"
     ],
     [
      "nasarawa",
-     "#64AC99"
+     "#C5B945"
     ],
     [
      "taraba",
-     "#60AA9F"
+     "#E0A23A"
     ],
     [
      "anambra",
-     "#84BA70"
+     "#E67231"
     ],
     [
      "plateau",
-     "#81B973"
+     "#E1512A"
     ],
     [
      "ebonyi",
-     "#86BB6D"
+     "#4041C7"
     ],
     [
      "kaduna",
-     "#95BD61"
+     "#68AF92"
     ],
     [
      "kogi",
-     "#92BC63"
+     "#8CBB68"
     ]
    ]
   }
@@ -131,17 +99,49 @@
  "geo": {
   "country": {},
   "division": {
-   "edo": {
-    "latitude": 6.5438,
-    "longitude": 5.8987
-   },
    "bauchi": {
     "latitude": 10.6371,
     "longitude": 10.0807
    },
+   "plateau": {
+    "latitude": 9.2446,
+    "longitude": 9.3673
+   },
+   "kaduna": {
+    "latitude": 10.159,
+    "longitude": 8.1339
+   },
+   "nasarawa": {
+    "latitude": 8.5705,
+    "longitude": 8.3088
+   },
+   "anambra": {
+    "latitude": 6.2758,
+    "longitude": 7.0068
+   },
+   "ebonyi": {
+    "latitude": 6.178,
+    "longitude": 7.9593
+   },
+   "edo": {
+    "latitude": 6.5438,
+    "longitude": 5.8987
+   },
+   "taraba": {
+    "latitude": 8.0055,
+    "longitude": 10.26
+   },
+   "kogi": {
+    "latitude": 7.9075,
+    "longitude": 6.5783
+   },
    "ondo": {
     "latitude": 6.8959,
     "longitude": 4.8936
+   },
+   "delta": {
+    "latitude": 5.5325,
+    "longitude": 5.8987
    }
   }
  },
