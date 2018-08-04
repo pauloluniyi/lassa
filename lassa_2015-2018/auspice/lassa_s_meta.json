@@ -1,0 +1,165 @@
+{
+ "updated": "04 Aug 2018",
+ "virus_count": 7,
+ "author_info": {},
+ "annotations": {
+  "nuc": {
+   "start": 1,
+   "end": 3377,
+   "strand": 1
+  },
+  "GPC": {
+   "start": 52,
+   "end": 1525,
+   "strand": 1
+  },
+  "NP": {
+   "start": 1591,
+   "end": 3301,
+   "strand": -1
+  }
+ },
+ "title": "Real-time tracking of Lassa virus evolution 2015-2018 Outbreak in Nigeria",
+ "color_options": {
+  "gt": {
+   "menuItem": "genotype",
+   "legendTitle": "Genotype",
+   "type": "discrete",
+   "key": "genotype"
+  },
+  "num_date": {
+   "menuItem": "date",
+   "legendTitle": "Sampling date",
+   "type": "continuous",
+   "key": "num_date"
+  },
+  "country": {
+   "legendTitle": "country",
+   "menuItem": "country",
+   "key": "country",
+   "color_map": [
+    [
+     "nigeria",
+     "#3F4DCB"
+    ],
+    [
+     "togo",
+     "#4681C9"
+    ],
+    [
+     "ghana",
+     "#5AA4A8"
+    ],
+    [
+     "cote_d_ivoire",
+     "#78B67E"
+    ],
+    [
+     "liberia",
+     "#9EBE5A"
+    ],
+    [
+     "sierra_leone",
+     "#C5B945"
+    ],
+    [
+     "guinea",
+     "#E0A23A"
+    ],
+    [
+     "mali",
+     "#E67231"
+    ],
+    [
+     "na",
+     "#DC2F24"
+    ]
+   ]
+  },
+  "division": {
+   "legendTitle": "division",
+   "menuItem": "division",
+   "key": "division",
+   "color_map": [
+    [
+     "edo",
+     "#58A2AB"
+    ],
+    [
+     "ondo",
+     "#56A0AE"
+    ],
+    [
+     "delta",
+     "#5BA7A6"
+    ],
+    [
+     "bauchi",
+     "#62AB9C"
+    ],
+    [
+     "nasarawa",
+     "#64AC99"
+    ],
+    [
+     "taraba",
+     "#60AA9F"
+    ],
+    [
+     "anambra",
+     "#84BA70"
+    ],
+    [
+     "plateau",
+     "#81B973"
+    ],
+    [
+     "ebonyi",
+     "#86BB6D"
+    ],
+    [
+     "kaduna",
+     "#95BD61"
+    ],
+    [
+     "kogi",
+     "#92BC63"
+    ]
+   ]
+  }
+ },
+ "geo": {
+  "country": {},
+  "division": {
+   "edo": {
+    "latitude": 6.5438,
+    "longitude": 5.8987
+   },
+   "bauchi": {
+    "latitude": 10.6371,
+    "longitude": 10.0807
+   },
+   "ondo": {
+    "latitude": 6.8959,
+    "longitude": 4.8936
+   }
+  }
+ },
+ "defaults": {
+  "colorBy": "division",
+  "geoResolution": "division"
+ },
+ "maintainer": [
+  "ACEGID Redeemer's University",
+  "http://acegid.org/"
+ ],
+ "filters": [
+  "country",
+  "division"
+ ],
+ "panels": [
+  "tree",
+  "map",
+  "entropy"
+ ]
+}
